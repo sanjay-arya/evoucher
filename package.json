@@ -1,0 +1,33 @@
+{
+   "name": "evoucher",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/node": "^8.0.29",
+      "ts-node-dev": "^1.1.1",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "@types/bcryptjs": "^2.4.2",
+      "@types/body-parser": "^1.19.0",
+      "@types/cors": "^2.8.9",
+      "@types/helmet": "^4.0.0",
+      "@types/jsonwebtoken": "^8.5.0",
+      "bcryptjs": "^2.4.3",
+      "bee-queue": "^1.3.1",
+      "body-parser": "^1.18.1",
+      "cors": "^2.8.5",
+      "credit-card": "^3.0.2",
+      "express": "^4.15.4",
+      "express-validator": "^6.9.0",
+      "helmet": "^4.3.1",
+      "jsonwebtoken": "^8.5.1",
+      "mysql": "^2.14.1",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.29"
+   },
+   "scripts": {
+      "start": "ts-node-dev src/index.ts",
+      "build": "tsc -p ."
+   }
+}
