@@ -5,6 +5,7 @@ WORKDIR /usr/src/app
 ADD package*.json ./
 COPY build src
 COPY ormconfig.json ./
+RUN mkdir -p public/qr
 
 RUN npm install
 RUN npm install pm2 -g
